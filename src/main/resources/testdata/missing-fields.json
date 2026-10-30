@@ -1,0 +1,7 @@
+[
+  { "field": "firstname",    "expectedStatus": 400 },
+  { "field": "lastname",     "expectedStatus": 400 },
+  { "field": "totalprice",   "expectedStatus": 400 },
+  { "field": "depositpaid",  "expectedStatus": 400 },
+  { "field": "bookingdates", "expectedStatus": 400 }
+]

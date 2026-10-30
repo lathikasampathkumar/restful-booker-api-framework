@@ -1,0 +1,8 @@
+{
+  "firstname": "Lathika",
+  "lastname": "S",
+  "totalprice": 1500,
+  "depositpaid": true,
+  "bookingdates": { "checkin": "2026-11-01", "checkout": "2026-11-05" },
+  "additionalneeds": "Breakfast"
+}

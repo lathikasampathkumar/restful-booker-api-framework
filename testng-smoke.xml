@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<!-- Quick health check: mvn test -Dsuite=testng-smoke.xml -->
+<suite name="Restful Booker API - Smoke">
+  <test name="Smoke">
+    <groups>
+      <run>
+        <include name="smoke"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="com.lathika.tests.CreateBookingTest"/>
+      <class name="com.lathika.tests.GetBookingTest"/>
+      <class name="com.lathika.tests.BookingLifecycleTest"/>
+      <class name="com.lathika.tests.BookingSchemaTest"/>
+      <class name="com.lathika.tests.CreateBookingValidationTest"/>
+      <class name="com.lathika.tests.BookingAuthTest"/>
+    </classes>
+  </test>
+</suite>

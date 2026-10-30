@@ -1,0 +1,22 @@
+# Build output and reports (regenerated on every run)
+target/
+test-output/
+reports/
+logs/
+*.log
+
+# IDE files
+.settings/
+.classpath
+.project
+.idea/
+*.iml
+.vscode/
+
+# Secrets and local overrides
+.env
+*.local.properties
+
+# OS files
+.DS_Store
+Thumbs.db
