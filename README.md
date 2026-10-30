@@ -1,6 +1,6 @@
 # Restful Booker – API Automation Framework
 
-![API Tests](https://github.com/LAT003/restful-booker-api-framework/actions/workflows/api-tests.yml/badge.svg)
+![API Tests](https://github.com/lathikasampathkumar/restful-booker-api-framework/actions/workflows/api-tests.yml/badge.svg)
 
 A layered **REST Assured + TestNG** framework for the public [Restful Booker](https://restful-booker.herokuapp.com/apidoc/index.html) API, built the way I'd structure API tests on a real product: config-driven, independent tests, format-agnostic test data, contract checks, and every request/response captured in the report.
 
@@ -99,4 +99,4 @@ Any key in `config.properties` can be overridden the same way with `-Dkey=value`
 
 ## Author
 
-**Lathika Sampathkumar** – SDET / QA Automation Engineer · [LinkedIn](https://linkedin.com/in/lathika-sampathkumar-24630822b) · [GitHub](https://github.com/LAT003)
+**Lathika Sampathkumar** – SDET / QA Automation Engineer · [LinkedIn](https://linkedin.com/in/lathika-sampathkumar-24630822b) · [GitHub](https://github.com/lathikasampathkumar)
